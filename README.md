@@ -17,6 +17,10 @@ For both cases, also a one second sample is extracted.
 ![The FFT transformation of the a measurement cycle.](figures/Fig.4_ef.png)
 The FFT transformation of the a measurement cycle.
 
-![Classification results based on Convolutional Neural Networks for different unbalance cases.](figures/Fig.6_b.png) ![Classification results  based on FFT-transformed signals for different unbalance cases.](figures/Fig.6_e.png)
+![Classification results based on Convolutional Neural Networks for different unbalance cases.](figures/Fig.6_abc.png) 
 
-Classification results for different unbalance cases (left: raw vibrations/timeseries signals with convolutional neural network, right: FFT-transformed vibrations signals with fully-connected neural network).
+Classification results for different unbalance cases (Approach 1: raw vibrations/timeseries signals with convolutional neural network).
+
+![Classification results  based on FFT-transformed signals for different unbalance cases.](figures/Fig.6_e.png)
+
+Classification results for different unbalance cases (Approach 2: FFT-transformed vibrations signals with fully-connected neural network).
